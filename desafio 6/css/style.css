@@ -1,0 +1,49 @@
+*{
+    margin:30px;
+    padding:0;
+}
+
+header nav div ul li a{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}
+nav{
+    background-color: rgb(34, 65, 34);
+}
+h1  p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+    font-size: 25px;
+}
+main p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+    font-size: 20px;
+}
+aside{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+    font-size: 15px;
+}
+footer{
+    background-color: rgb(34, 65, 34); 
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    align-items: center;
+    font-style: italic;
+    font-size: 15px;}
+
+footer ul li a{
+    display: inline-block;
+}
+   
